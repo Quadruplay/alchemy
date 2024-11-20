@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Alchemy Idle</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="main.js" type="module" defer></script>
+</head>
+<body>
+    <span id="fps" style="left: 0px; position: absolute";></span>
+    <span id="challengeID" style="right: 0px; position: absolute";></span>
+    <div id="hidden" style="display: none;"></div>
+    <div class="centerX">
+        <span id="energy"></span>
+    </div>
+    <div class="centerXY tab" id="elemancyTab">
+        <table>
+            <thead>
+                <tr>
+                    <th scope="row" colspan="2">
+                        <button id="salt">Salt</button>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        <button id="earth">Earth</button>
+                    </th>
+                    <th scope="row">
+                        <button id="water">Water</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <button id="air">Air</button>
+                    </th>
+                    <th scope="row">
+                        <button id="fire">Fire</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="2">
+                        <button id="aether">Aether</button>
+                    </th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="2">
+                        <button id="quintessence">Quintessence</button>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div class="centerXY tab" id="quintessenceTab">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <button id="Q1"></button>
+                    </th>
+                    <th>
+                        <button id="Q2"></button>
+                    </th>
+                    <th>
+                        <button id="Q3"></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button id="Q4"></button>
+                    </th>
+                    <th>
+                        <button id="Q5"></button>
+                    </th>
+                    <th>
+                        <button id="Q6"></button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button id="Q7"></button>
+                    </th>
+                    <th>
+                        <button id="Q8"></button>
+                    </th>
+                    <th>
+                        <button id="Q9"></button>
+                    </th>
+                </tr>
+            </thead>
+        </table>    
+    </div>
+    <div class="centerXY tab" id="challengesTab">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <button id="C1" class="fire aries">Aries<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C2" class="earth taurus">Taurus<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C3" class="air gemini">Gemini<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C4" class="water cancer">Cancer<br><br>&nbsp;</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button id="C5" class="fire leo">Leo<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C6" class="earth virgo">Virgo<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C7" class="air libra">Libra<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C8" class="water scorpio">Scorpio<br><br>&nbsp;</button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <button id="C9" class="fire sagittarius">Sagittarius<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C10" class="earth capricorn">Capricorn<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C11" class="air aquarius">Aquarius<br><br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="C12" class="water pisces">Pisces<br><br>&nbsp;</button>
+                    </th>
+                </tr>
+            </thead>
+        </table>    
+    </div>
+    <div class="tabs" style="position:absolute; bottom:0px;">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <button id="elemancyTabButton"><br>Elemancy<br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="quintessenceTabButton"><br>Quintessence<br>&nbsp;</button>
+                    </th>
+                    <th>
+                        <button id="challengesTabButton"><br>Challenges<br>&nbsp;</button>
+                    </th>
+                </tr>
+            </thead>
+        </table>    
+    </div>
+</body>
+</html>
